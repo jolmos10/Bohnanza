@@ -1,4 +1,4 @@
-public interface Decisiones {
+public interface Decisions {
 
 	// decide whether the card should be planted
 	public boolean plantDecide(Card card);
