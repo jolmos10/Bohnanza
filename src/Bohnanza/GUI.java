@@ -1,3 +1,5 @@
+package Bohnanza;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -59,7 +61,7 @@ public class GUI implements ActionListener {
 	private JLabel[] tradingAreaLabel = new JLabel[2];
 	private JLabel[] tradeRequestLabel = new JLabel[4];
 	private JButton[] tradeRequestButtonAccept = new JButton[4];
-	private Card[][] playerTradeCards = new Card[4][2];
+	private Cartas[][] playerTradeCards = new Cartas[4][2];
 
 	private static int humanPlantTimes = 0;		// To keep track of how many times the human player planted (maximum 2)
 	private static int humanTurnStage = 1;	//To keep track of what step of the turn the human is on
@@ -67,11 +69,11 @@ public class GUI implements ActionListener {
 	private static int currentPlayer;	//To keep track of whether or not it's the human's turn
 
 	private int handCardNum;	//Holds index of card in hand
-	private Card currentCard;	//Holds the current card
+	private Cartas currentCard;	//Holds the current card
 
 	//Creating objects
-	private Pile pile = new Pile();
-	private Player[] players = new Player[4];
+	private Baraja baraja = new Baraja();
+	private Jugador[] jugadore = new Jugador[4];
 	private AI1 ai1 = new AI1(1,pile);
 	private AI2 ai2 = new AI2(2,pile);
 	private AI3 ai3 = new AI3(3,pile);

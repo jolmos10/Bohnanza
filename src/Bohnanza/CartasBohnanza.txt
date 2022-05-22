@@ -1,0 +1,8 @@
+Judia Bill,20,4,6,8,10,
+Judia Boom,18,3,6,8,9,
+La Apestosa,16,3,5,7,8,
+La Pocha,14,3,5,6,7,
+Hippy Judia,12,2,4,6,7,
+Rocky Judia,10,2,4,5,6,
+Judia Colora,8,2,3,4,5,
+El Judicultor,6,99,2,3,99
