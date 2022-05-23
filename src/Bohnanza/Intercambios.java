@@ -17,7 +17,7 @@ public class Intercambios{
 		this.numInter = numInter;
 	}
 
-	public Cartas getCaras(){
+	public Cartas getCartas(){
 		return carta;
 	}
 
